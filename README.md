@@ -1,4 +1,4 @@
-vrops.scotlan.net
+
 
 In a busy IT world remembering to disable monitoring during ad-hoc system shutdowns or reboots can be challenging.  I thought I’d have a go at making an API call to the vROps (or Aria) from the affected virtual machines so they could call home in the event of a shutdown - set themselves as ‘in maintenance’ and then when they start back up un-do the maintenance and life would continue on as normal..
 
