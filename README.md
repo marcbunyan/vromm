@@ -6,7 +6,7 @@ In a busy IT world remembering to disable monitoring during ad-hoc system shutdo
 
 I’ve made this as OS agnostic as possible so that you can compile this on the systems you require.
 
-Please note that I’ve simply added the API login credentials to the code below, please use your preferred method to secure the details required. (keyvault etc.)
+Please note that I’ve simply added the API login credentials to the code below, please use your preferred method to secure things according to your own internal practices.
 
 This code is a starter for ten - feel free to modify this as you see fit.
 
@@ -18,6 +18,7 @@ Here’s a high level description of the codes workflow :
 4. Set the objectID as maintained or delete the maintained flag depending on the command line used.
 
 The program needs 3 arguments -  
+
 1. vROps server fqdn.
 2. VM name
 3. start/end
@@ -26,11 +27,7 @@ You’ll need to get each operating system to execute the code (compiled or buil
 
 There are many many ways to achieve this for the various operating systems so i’ll leave that part up to you.
 
-Below is a link to my github page where you can find the code for the API calls in Powershell and GOLANG.
-
 The Go code I’ve found is the better way to create a small binary that will execute on the windows systems required.
-
-Code snippets are below:   
 
 
 
